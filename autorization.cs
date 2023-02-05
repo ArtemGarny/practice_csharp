@@ -27,7 +27,6 @@ namespace автосалон_дизайн
             adapter.Fill(dt);
             conn.Close();
         }
-
         public autorization()
         {
             InitializeComponent();
@@ -47,7 +46,6 @@ namespace автосалон_дизайн
                 "' AND acc_type LIKE 'admin'";
             if (dv.Count != 0)
             {
-                
                 txtLogin.Clear();
                 txtPass.Clear();
                 admin adminf = new admin();
